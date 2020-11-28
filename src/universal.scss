@@ -1,0 +1,35 @@
+%block-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  & > li {
+    height: 44px;
+    border: solid 1px gray;
+    border-bottom: none;
+    background: lightGray;
+
+    &:hover {
+      background: white;
+    }
+
+    &:first-child {
+      border-radius: 10px 10px 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 10px 10px;
+      border-bottom: solid 1px gray;
+    }
+
+    & > a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100%;
+      padding: 0 10px;
+      color: black;
+      text-decoration: none;
+    }
+  }
+}

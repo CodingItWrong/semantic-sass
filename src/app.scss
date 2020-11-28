@@ -1,0 +1,5 @@
+@use 'universal';
+
+ul.todos {
+  @extend %block-list;
+}
