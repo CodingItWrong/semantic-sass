@@ -2,5 +2,11 @@
   "name": "semantic-sass",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "sass src/app.scss src/app.css"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
 }
