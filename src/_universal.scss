@@ -1,3 +1,11 @@
+%main-text-1 {
+  font-size: 32px;
+}
+
+%main-text-2 {
+  font-size: 24px;
+}
+
 %block-list {
   list-style-type: none;
   margin: 0;
@@ -32,4 +40,24 @@
       text-decoration: none;
     }
   }
+}
+
+%control-row {
+  display: flex;
+  flex-direction: row;
+
+  &__main {
+    flex: 1;
+  }
+
+  &__control {
+    &:hover {
+      background: yellow;
+    }
+  }
+}
+
+%unstyled-button {
+  background: none;
+  border: none;
 }
